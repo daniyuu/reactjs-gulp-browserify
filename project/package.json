@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactjs",
+    "gulp",
+    "browserify"
+  ],
+  "author": "Cyy",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-react": "^3.1.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

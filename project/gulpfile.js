@@ -126,7 +126,5 @@ gulp.task('cleanCss', function () {
 
 });
 
-
-gulp.task('production', ['replaceHTML', 'build']);
-
-gulp.task('default', ['replaceHTML', 'concatCss', 'cleanCss', 'build']);
+gulp.task('source', ['replaceHTML', 'concatCss']);
+gulp.task('default', ['cleanCss','build']);

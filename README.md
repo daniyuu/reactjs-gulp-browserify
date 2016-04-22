@@ -17,7 +17,7 @@ $ npm install
 
 ## Start
 ```sh
-$ gulp copy
+$ gulp source
 $ gulp
 ```
 

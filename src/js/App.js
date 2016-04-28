@@ -2,7 +2,8 @@
  * Created by v-yueych on 4/21/2016.
  */
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Parent = require('./Parent');
 
-React.render(<Parent />, document.getElementById('app'));
+ReactDOM.render(<Parent />, document.getElementById('app'));
 

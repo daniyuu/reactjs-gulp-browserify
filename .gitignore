@@ -2,3 +2,4 @@
 project/node_modules/
 project/dist/build/build.min.js
 project/dist/
+node_modules/
